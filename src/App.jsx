@@ -33,15 +33,15 @@ function App() {
             path='/chat'
             element={
               <ProtectedRoute>
-                <Account children={<Chat/>} />
+                <Account children={<Chat />} />
               </ProtectedRoute>
             }
           />
-           <Route
+          <Route
             path='/todo'
             element={
               <ProtectedRoute>
-                <Account children={<Todos/>} />
+                <Account children={<Todos />} />
               </ProtectedRoute>
             }
           />
