@@ -15,9 +15,17 @@ const Navbar = () => {
 
     return (
         <div className='flex justify-between items-center bg-gray-200 w-full p-4'>
-            <h1 className='text-2xl font-bold'>
-                Firebase Google Auth & Context
-            </h1>
+            <div className="flex items-center space-x-2 mb-4">
+                <img
+                    src="firebase-logo.png"
+                    alt="Firebase Logo"
+                    className="h-8 w-8"
+                />
+                <h1 className="text-2xl font-bold">
+                    Firebase
+                </h1>
+            </div>
+
 
             <div className="flex items-center gap-4">
                 {user?.displayName && (
